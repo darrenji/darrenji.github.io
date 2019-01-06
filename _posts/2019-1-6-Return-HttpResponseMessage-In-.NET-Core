@@ -1,6 +1,6 @@
 We can return `HttpResponseMessage` in the ASP.NET Web API 2 controller action.How can we return `HttpResponseMessage` in .NET Core? `Microsoft.AspNetCore.Mvc.WebApiCompatShim` help us migrate from ASP.NET Web API 2 to ASP.NET Core MVC. It includes `System.Web.Http.ApiController`, so we can use `HttpResponseMessage` in actions.
 
-Startup.cs
+Configuration in Startup.cs
 ```
 public class Startup
 {
