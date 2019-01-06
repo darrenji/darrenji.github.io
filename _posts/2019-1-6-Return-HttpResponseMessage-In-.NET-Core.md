@@ -25,6 +25,6 @@ public async Task<HttpResponseMessage> Example()
 		StatusCode = HttpStatusCode.OK
 	};
 	response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-	return response;
+	return response;d
 }
 ```
